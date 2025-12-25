@@ -47,9 +47,9 @@ class Admin(Document):
 
 
 class Difficulty(str, Enum):
-    easy = "easy"
-    medium = "medium"
-    hard = "hard"
+    easy = "лёгкий"
+    medium = "средний"
+    hard = "сложный"
 
 class Theme(str, Enum):
     math = "математика"
